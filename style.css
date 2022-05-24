@@ -9,8 +9,20 @@ body {
 }
 
 .flex-container {
-	display: flex;
-	background-color: #f4f4f4;
+		height: 400px;
+		display: flex;
+		background-color: #f4f4f4;
+		
+	/* Horizontal Placement  */
+		/*justify-content: end;*/
+		/*justify-content: center;*/
+		/*justify-content: space-around;*/
+		justify-content: space-between;
+		
+	/* Vertical Placement */	
+		/*align-items: end;*/
+		/*align-items: start;*/
+		align-items: center;
 }
 
 .item {
